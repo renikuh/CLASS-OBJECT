@@ -1,0 +1,184 @@
+//OBJECT KOTAK
+package TUGASLAGI;
+
+public class Hasil {
+
+	public static void main(String[] args) {
+		Kotak kotakKuning = new Kotak();
+		
+		kotakKuning.setPanjang(8);
+		kotakKuning.setLebar(5);
+		
+		kotakKuning.hitungLuas();
+		kotakKuning.hitungKeliling();
+	
+		System.out.println("Panjang : " + kotakKuning.getPanjang());
+		System.out.println("Lebar : " + kotakKuning.getLebar());
+		System.out.println("LuasKotak : " + kotakKuning.getLuas());
+		System.out.println("KelilingKotak " + kotakKuning.getKeliling());
+		System.out.println("___________________________________________");
+	}
+
+}
+
+//OBJECT MAHASISWA
+package TUGASLAGI;
+
+public class HasilMHS {
+
+	public static void main(String[] args) {
+		//Hasil Mahasiswa
+		Mahasiswa informatika = new Mahasiswa();
+		informatika.setNama("Reni Ramli");
+		informatika.setNim("D0217008");
+		informatika.setAlamat("Pinrang");
+		informatika.setGolonganDarah("O");
+		informatika.setStatus("Mahasiswa");
+		informatika.setTinggiBadan(153);
+		informatika.setBeratBadan(49);
+		
+		System.out.println("Nama : " + informatika.getNama());
+		System.out.println("Nim : " + informatika.getNim());
+		System.out.println("Alamat : " + informatika.getAlamat());
+		System.out.println("GolonganDarah : " + informatika.getGolonganDarah());
+		System.out.println("Status : " + informatika.getStatus());
+		System.out.println("TinggiBadan : " + informatika.getTinggiBadan());
+		System.out.println("BeratBadan : " + informatika.getBeratBadan());
+		System.out.println("---------------------------------------------");
+
+	}
+
+}
+
+//OBJECT NODE
+package TUGASLAGI;
+
+public class NodeMain {
+
+	public static void main(String[] args) {
+		Node Nodeku = new Node();
+		
+		Nodeku.setLabel("Umur Reni Ramli");
+		Nodeku.setValue(20);
+		
+		System.out.println( Nodeku.getLabel());
+		System.out.println("Tahun : " + Nodeku.getValue());
+	}
+
+}
+//OBJECT STACK
+package TUGASLAGI;
+
+public class StackMain {
+
+	public static void main(String[] args) {
+		Stack Stack1 = new Stack();
+		System.out.println("________________");
+		Stack1.Value[0] = "Reni Ramli";
+		Stack1.Value[1] = "Reni Ramli";
+		Stack1.Value[2] = "Reni Ramli";
+		Stack1.Value[3] = "Reni Ramli";
+		Stack1.Value[4] = "Reni Ramli";
+		Stack1.Value[5] = "Reni Ramli";
+		Stack1.Value[6] = "Reni Ramli";
+		Stack1.Value[7] = "Reni Ramli";
+		Stack1.Value[8] = "Reni Ramli";
+		Stack1.Value[9] = "Reni Ramli";
+		Stack1.Value[10] = "Reni Ramli";
+		Stack1.Value[11] = "Reni Ramli";
+		Stack1.Value[12] = "Reni Ramli";
+		Stack1.Value[13] = "Reni Ramli";
+		Stack1.Value[14] = "Reni Ramli";
+		Stack1.Value[15] = "Reni Ramli";
+		Stack1.Value[16] = "Reni Ramli";
+		Stack1.Value[17] = "Reni Ramli";
+		Stack1.Value[18] = "Reni Ramli";
+		Stack1.Value[19] = "Reni Ramli";
+		Stack1.Value[20] = "Reni Ramli";
+		Stack1.Value[21] = "Reni Ramli";
+		Stack1.Value[22] = "Reni Ramli";
+		Stack1.Value[23] = "Reni Ramli";
+		Stack1.Value[24] = "Reni Ramli";
+		Stack1.Value[25] = "Reni Ramli";
+		Stack1.Value[26] = "Reni Ramli";
+		Stack1.Value[27] = "Reni Ramli";
+		Stack1.Value[28] = "Reni Ramli";
+		Stack1.Value[29] = "Reni Ramli";
+		Stack1.Value[30] = "Reni Ramli";
+		Stack1.Value[31] = "Reni Ramli";
+		Stack1.Value[32] = "Reni Ramli";
+		Stack1.Value[33] = "Reni Ramli";
+		Stack1.Value[34] = "Reni Ramli";
+		Stack1.Value[35] = "Reni Ramli";
+		Stack1.Value[36] = "Reni Ramli";
+		Stack1.Value[37] = "Reni Ramli";
+		Stack1.Value[38] = "Reni Ramli";
+		Stack1.Value[39] = "Reni Ramli";
+		Stack1.Value[40] = "Reni Ramli";
+		Stack1.Value[41] = "Reni Ramli";
+		Stack1.Value[42] = "Reni Ramli";
+		Stack1.Value[43] = "Reni Ramli";
+		Stack1.Value[44] = "Reni Ramli";
+		Stack1.Value[45] = "Reni Ramli";
+		Stack1.Value[46] = "Reni Ramli";
+		Stack1.Value[47] = "Reni Ramli";
+		Stack1.Value[48] = "Reni Ramli";
+		Stack1.Value[49] = "Reni Ramli";
+		Stack1.Value[50] = "Reni Ramli";
+		Stack1.Value[51] = "Reni Ramli";
+		Stack1.Value[52] = "Reni Ramli";
+		Stack1.Value[53] = "Reni Ramli";
+		Stack1.Value[54] = "Reni Ramli";
+		Stack1.Value[55] = "Reni Ramli";
+		Stack1.Value[56] = "Reni Ramli";
+		Stack1.Value[57] = "Reni Ramli";
+		Stack1.Value[58] = "Reni Ramli";
+		Stack1.Value[59] = "Reni Ramli";
+		Stack1.Value[60] = "Reni Ramli";
+		Stack1.Value[61] = "Reni Ramli";
+		Stack1.Value[62] = "Reni Ramli";
+		Stack1.Value[63] = "Reni Ramli";
+		Stack1.Value[64] = "Reni Ramli";
+		Stack1.Value[65] = "Reni Ramli";
+		Stack1.Value[66] = "Reni Ramli";
+		Stack1.Value[67] = "Reni Ramli";
+		Stack1.Value[68] = "Reni Ramli";
+		Stack1.Value[69] = "Reni Ramli";
+		Stack1.Value[70] = "Reni Ramli";
+		Stack1.Value[71] = "Reni Ramli";
+		Stack1.Value[72] = "Reni Ramli";
+		Stack1.Value[73] = "Reni Ramli";
+		Stack1.Value[74] = "Reni Ramli";
+		Stack1.Value[75] = "Reni Ramli";
+		Stack1.Value[76] = "Reni Ramli";
+		Stack1.Value[77] = "Reni Ramli";
+		Stack1.Value[78] = "Reni Ramli";
+		Stack1.Value[79] = "Reni Ramli";
+		Stack1.Value[80] = "Reni Ramli";
+		Stack1.Value[81] = "Reni Ramli";
+		Stack1.Value[82] = "Reni Ramli";
+		Stack1.Value[83] = "Reni Ramli";
+		Stack1.Value[84] = "Reni Ramli";
+		Stack1.Value[85] = "Reni Ramli";
+		Stack1.Value[86] = "Reni Ramli";
+		Stack1.Value[87] = "Reni Ramli";
+		Stack1.Value[88] = "Reni Ramli";
+		Stack1.Value[89] = "Reni Ramli";
+		Stack1.Value[90] = "Reni Ramli";
+		Stack1.Value[91] = "Reni Ramlii";
+		Stack1.Value[92] = "Reni Ramli";
+		Stack1.Value[93] = "Reni Ramli";
+		Stack1.Value[94] = "Reni Ramli";
+		Stack1.Value[95] = "Reni Ramli";
+		Stack1.Value[96] = "Reni Ramli";
+		Stack1.Value[97] = "Reni Ramli";
+		Stack1.Value[98] = "Reni Ramli";
+		Stack1.Value[99] = "Reni Ramli";
+	
+		Stack1.setValueAt(7, "ReniRamli");
+		for(int i=0;i<Stack1.Value.length;i++)
+		{System.out.println(Stack1.Value[i]);};
+	}
+
+}
+
